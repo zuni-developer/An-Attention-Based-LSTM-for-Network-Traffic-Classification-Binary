@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # An Attention-Based LSTM Model for Intelligent Network Traffic Classification (Binary)
+=======
+# An Attention-Based LSTM Model for Intelligent Network Traffic Classification (Binary-Classification)
+>>>>>>> 534b1b5c968ba5f495d35e86bf954a2c765ce7e2
 
 > **Transformer-Enhanced LSTM for network traffic classification**  
 > Built with TensorFlow/Keras · Evaluated on CIC-Darknet2020 and UNSW-NB15 · Benchmarked against traditional models
@@ -21,7 +25,7 @@ Department of Software Engineering, BUITEMS, Quetta, Pakistan
 
 ## Overview
 
-This repository contains the complete implementation for our paper on hybrid deep learning for network traffic classification. We propose a **Transformer-Enhanced LSTM** architecture that applies multi-head self-attention on top of LSTM outputs, enabling the model to focus on critical temporal patterns in network flow statistics.
+This repository contains the complete implementation for our paper on hybrid deep learning for network traffic classification (Binary-Classification). We propose a **Transformer-Enhanced LSTM** architecture that applies multi-head self-attention on top of LSTM outputs, enabling the model to focus on critical temporal patterns in network flow statistics.
 
 The model is evaluated on two public benchmark datasets and compared the CICDARKNET2020 dataset against traditional models across all standard metrics.
 
@@ -48,7 +52,7 @@ Input (samples, timesteps=1, features)
 
 | Dataset | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |---------|-------|----------|-----------|--------|----------|---------|
-| CIC-Darknet2020 | **Transformer-LSTM (Proposed)** | **96.05%** | **96.06%** | **96.05%** | **96.04%** | — |
+| CIC-Darknet2020 | **Transformer-LSTM (Proposed)** | **96.43%** | **90.01%** | **989.61%** | **89.81%** | 99.11 |
 | CIC-Darknet2020 | Logistic-Regression | 94.19% | 93.29% | 95.63% | 94.44% | 94.15% |
 | CIC-Darknet2020 | SVM | 95.81% | 96.23% | 95.63% | 95.92% | 95.81% |
 | CIC-Darknet2020 | CNN | 95.81% | 95.65% | 96.25% | 95.95% | 98.24% |
@@ -83,7 +87,7 @@ Input (samples, timesteps=1, features)
 
 See [`dataset/dataset_link.txt`](dataset/dataset_link.txt) for original source links.
 
-**CIC-Darknet2020 classes:** Non-Tor · Non-VPN · Tor · VPN  
+**CIC-Darknet2020 classes:** Benign . Darknet  
 **UNSW-NB15 classes:** Normal · Attack
 
 ---
