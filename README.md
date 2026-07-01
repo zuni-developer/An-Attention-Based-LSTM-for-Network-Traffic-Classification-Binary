@@ -48,7 +48,7 @@ Input (samples, timesteps=1, features)
 
 | Dataset | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |---------|-------|----------|-----------|--------|----------|---------|
-| CIC-Darknet2020 | **Transformer-LSTM (Proposed)** | **96.43%** | **90.01%** | **989.61%** | **89.81%** | 99.11 |
+| CIC-Darknet2020 | **Transformer-LSTM (Proposed)** | **96.43%** | **90.01%** | **89.61%** | **89.81%** | 99.11 |
 | CIC-Darknet2020 | Logistic-Regression | 94.19% | 93.29% | 95.63% | 94.44% | 94.15% |
 | CIC-Darknet2020 | SVM | 95.81% | 96.23% | 95.63% | 95.92% | 95.81% |
 | CIC-Darknet2020 | CNN | 95.81% | 95.65% | 96.25% | 95.95% | 98.24% |
