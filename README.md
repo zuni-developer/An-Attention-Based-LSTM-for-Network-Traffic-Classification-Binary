@@ -54,7 +54,7 @@ Input (samples, timesteps=1, features)
 | CIC-Darknet2020 | CNN | 95.81% | 95.65% | 96.25% | 95.95% | 98.24% |
 | CIC-Darknet2020 | LSTM | 91.29% | 88.00% | 96.25% | 91.94% | 96.04% |
 
-
+The above results are available at (results/comparison/baseline_vs_proposed.txt)
 ### Performance Comparison — CIC-Darknet2020
 
 ![Baseline vs Proposed on CIC-Darknet2020](figures/comparison/baseline_vs_proposed_cicdarknet2020.png)
