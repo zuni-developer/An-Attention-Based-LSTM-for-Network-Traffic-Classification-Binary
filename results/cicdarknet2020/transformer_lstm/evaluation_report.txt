@@ -1,0 +1,17 @@
+=== Evaluation Report: cicdarknet2020 (transformer_lstm) ===
+
+Accuracy  : 0.9643
+Precision : 0.9001
+Recall    : 0.8961
+F1-Score  : 0.8981
+ROC-AUC   : 0.9911
+
+              precision    recall  f1-score   support
+
+      Benign       0.98      0.98      0.98     12754
+     Darknet       0.90      0.90      0.90      2715
+
+    accuracy                           0.96     15469
+   macro avg       0.94      0.94      0.94     15469
+weighted avg       0.96      0.96      0.96     15469
+

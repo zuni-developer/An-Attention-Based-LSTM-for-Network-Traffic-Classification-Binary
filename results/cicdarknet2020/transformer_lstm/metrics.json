@@ -1,0 +1,19 @@
+{
+    "dataset_name": "cicdarknet2020",
+    "model_type": "transformer_lstm",
+    "accuracy": 0.9643157282306548,
+    "precision": 0.9001109877913429,
+    "recall": 0.8961325966850828,
+    "f1_score": 0.8981173864894795,
+    "confusion_matrix": [
+        [
+            12484,
+            270
+        ],
+        [
+            282,
+            2433
+        ]
+    ],
+    "roc_auc": 0.9911145920060901
+}
